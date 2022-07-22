@@ -1,0 +1,84 @@
+html{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    height: 60vh;
+}
+.clockbox,#clock{
+    width: 100%;
+}
+.circle{
+    fill: rgba(15, 15, 15, 0.788);
+    stroke: rgba(14, 13, 13, 0.274);
+    stroke-width: 15;
+    stroke-miterlimit: 10;
+}
+.circlevasat{
+    fill:wheat;
+}
+.saat{
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+.hourdaste{
+    fill: none;
+    stroke: wheat;
+    stroke-width: 15;
+    stroke-miterlimit: 10;
+}
+.minutedaste{
+    fill: none;
+    stroke: wheat;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+}
+.seconddaste{
+    fill: none;
+    stroke: rgb(211, 58, 58);
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+.sizing-box{
+    fill: none;
+}
+#hour,#minute,#second{
+    transform-origin: 300px 300px;
+}
+.clock{
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    border: 5px solid rgb(202, 201, 201);
+    padding: 15px 5px 10px 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 0em;
+}
+.info{
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border: 5px solid rgb(202, 201, 201);
+    padding: 15px 5px 10px 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 0em;
+}
+.haman{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translateX(-50%)translateY(-1300%);
+    color: wheat;
+    font-size: 18px;
+    padding: 0px 5px 0px 5px ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+}
